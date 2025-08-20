@@ -1,5 +1,5 @@
 {% docs order_status %}
-|--------------------|--------------------------|
+
 | **Estado**         | **Descripción**          |
 |--------------------|--------------------------|
 | **returned**       | Devuelto                 |
@@ -7,5 +7,5 @@
 | **return_pending** | Pendiente de devolución  |
 | **shipped**        | Enviado                  |
 | **placed**         | Entregado                |
-|--------------------|--------------------------|
+
 {% enddocs %}
