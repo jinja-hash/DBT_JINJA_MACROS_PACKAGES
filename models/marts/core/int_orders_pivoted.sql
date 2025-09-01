@@ -10,6 +10,7 @@ pivoted as (
 
     select 
         order_id,
+        
         {% set payment_methods = ['bank_transfer', 'coupon', 'credit_card', 'gift_card'] -%}
         {% for p_method in payment_methods -%}
             {% if not loop.last -%}
