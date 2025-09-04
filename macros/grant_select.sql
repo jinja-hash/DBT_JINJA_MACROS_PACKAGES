@@ -1,4 +1,4 @@
-{% macro grant_select(schema, role) %}
+{% macro grant_select(schema = traget.schema, role = target.role) %}
 
     {% set sql %} {# EN ESTE CASO USAMOS SET ASI PARA PODER ASIGNAR TEXTO CON SALTO DE LINEAS Y DEMAS #}
         grant usage on schema {{ schema }} to {{role}}; 
