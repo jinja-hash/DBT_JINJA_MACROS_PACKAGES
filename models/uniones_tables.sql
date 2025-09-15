@@ -1,0 +1,1 @@
+{{union_table_by_prefix('dbt-fundamentals-463313','jaffle_shop','or')}}
