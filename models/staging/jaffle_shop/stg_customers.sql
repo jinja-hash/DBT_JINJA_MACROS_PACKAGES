@@ -1,3 +1,9 @@
+{{
+    config(
+        schema = 'dbt_josadri'
+    )
+}}
+
 -- SOURCE --
 
 with 
